@@ -1,7 +1,10 @@
 h1 {
     background-color:teal;
     color:white;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 25px;
+    margin-left: 100px;
+    margin-right: 900px;
 }
 
 p {
