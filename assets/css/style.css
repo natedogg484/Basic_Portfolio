@@ -2,9 +2,17 @@ h1 {
     background-color:teal;
     color:white;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 25px;
-    margin-left: 100px;
-    margin-right: 900px;
+    padding: 15px;
+    margin-right: 650px;    
+}
+h2 {
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content {
+   margin: 0px auto;
+   width: 960px; 
 }
 
 p {
