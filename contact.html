@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css"> <!-- link to style sheet -->
     </head>
     <body>
 
+        <div class="content"> <!-- Given class for formatting in CSS sheet -->
+            <h1>Nathan Schmidt</h1>
+           
+            <div id="internallinks">
+                About
+                Contact
+                Portfolio
+            </div>
+
+            <h2>Contact</h2>
+            
+            <div class="contact">
+                    <form action="action_page.php">
+                        
+                      <label for="fname">First Name</label>
+                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                  
+                      <label for="lname">Last Name</label>
+                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                  
+                      <label for="message">Message</label>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+                  </div>
+        </div>
+
+        <div class="footer">
+            <p>Such Majesty. Much Wow.</p>
+        </div>     
+        
     </body>
     
 </html>
