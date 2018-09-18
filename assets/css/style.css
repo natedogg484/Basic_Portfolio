@@ -10,8 +10,7 @@
 
 .content {
     margin: 0px auto;
-    width: 960px; 
-    
+    width: 960px;    
  }
 
 .header {
@@ -65,19 +64,23 @@ h2 {
 }
 
 .fname {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
 
 .lname {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
 
 .subject {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
 
 .submit {
     font-family: Arial, Helvetica, sans-serif;
+    position: relative;
 }
 
 .projects{
@@ -87,13 +90,55 @@ h2 {
 
 .filler {
     float: left;
-    width: 30%;
-    height: 30%;
-    padding: 10px;
+    width: 40%;
+    height: 40%;
+    margin: 5px;
+    position: relative;
+    border-color: teal;
+    border: 5px;
 }
 
-p {
-    font-family: Arial, Helvetica, sans-serif;
+.hanglabel {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    background-color: teal;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+.rpglabel {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    background-color: teal;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+.tlabel {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    background-color: teal;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.wlabel {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    background-color: teal;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.rocklabel {
+    position: absolute;
+    text-align: center;
+    z-index: 1;
+    background-color: teal;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .footer {
