@@ -10,9 +10,9 @@
         <div class="header"> 
         <!-- For the float works -->
             <h1>Nathan Schmidt</h1>
-            <div id="link1">About</div>
-            <div id="link2">Contact</div>
-            <div id="link3">Portfolio</div>
+            <div id="link1"><a href="index.html">About</a></div>
+            <div id="link2"><a href="contact.html">Contact</a></div>
+            <div id="link3"><a href="portfolio.html">Portfolio</a></div>
                     
         </div>
 
@@ -20,18 +20,24 @@
             
             <div class="contact">
                     <form action="action_page.php">
-                        
+                    <div id="fname">   
                       <label for="fname">First Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-                  
+                      <input type="text"  name="firstname" placeholder="Your first name..">
+                    </div>
+
+                    <div id="lname"> 
                       <label for="lname">Last Name</label>
-                      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-                  
+                      <input type="text"  name="lastname" placeholder="Your last name..">
+                    </div>
+
+                    <div id="subject"> 
                       <label for="message">Message</label>
-                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-                  
+                      <textarea name="subject" placeholder="Write something.." style="height:200px; width: 450px"></textarea>
+                    </div>
+
+                    <div id="submit"> 
                       <input type="submit" value="Submit">
-                  
+                    </div> 
                     </form>
                   </div>
         </div>

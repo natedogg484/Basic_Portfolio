@@ -33,6 +33,7 @@ h1 {
     width: 15%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: grey;
 }
 
 #link2 {
@@ -40,6 +41,7 @@ h1 {
     width: 15%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: grey;
 }
 
 #link3 {
@@ -47,6 +49,7 @@ h1 {
     width: 15%;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    color: grey;
 }
 
 h2 {
@@ -59,6 +62,22 @@ h2 {
     width: 15%;
     height: 15%;
     padding: 20px;
+}
+
+.fname {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.lname {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.subject {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.submit {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
