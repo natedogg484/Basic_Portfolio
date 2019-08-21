@@ -1,60 +1,59 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en">
 
 <head>
-    <title>About Me</title>
-
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <!-- link to style sheet -->
+    <meta charset="utf-8">
+    <title>Nathan G Schmidt</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel='stylesheet' href='./src/css/style.css'>
 
 </head>
 
-<Body>
-    <div class="clearfix">
-
-        <div class="content">
-            <!-- Given class for formatting in CSS sheet -->
-            <div class="header">
-                <!-- For the float works -->
-                <h1>Nathan Schmidt</h1>
-                <div id="link3"><a href="portfolio.html">Portfolio</a></div>
-                <div id="link2"><a href="contact.html">Contact</a></div>
-                <div id="link1"><a href="index.html">About</a></div>
-                <div id="topline"></div>
+<body>
+    <!-- navbar area -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Nathan Schmidt</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link"
+                    href="https://docs.google.com/document/d/1VMtq_k8sHVKxWfwsh741hllx3c1lx86M1CUhcx3mYrI/edit?usp=sharing"
+                    target="_blank">Resume</a>
+                <a class="nav-item nav-link" href="https://www.linkedin.com/in/nathan-schmidt-6a294a114/"
+                    target="_blank">LinkedIn</a>
+                <a class="nav-item nav-link" href="https://github.com/natedogg484" target="_blank">Github</a>
+            </div>
+        </div>
+    </nav>
+    <!-- container for content -->
+    <div class="container">
+        <br>
+        <!-- intro section -->
+        <div class="row">
+            <div class="col-md-4">
+                <img src=".\src\img\headshotMorocco.jpg" class="img-fluid" id="headshot">
+                <p>Nathan G Schmidt<br> Fullstack Developer: React and Javascript<br>Malvern, Pa<br>
+                    nathangschmidt@gmail.com</p>
+            </div>
+            <div class="col-md-8" id="skill-logos">
 
             </div>
-
-            <h2>About Me</h2>
-
-            <img class="myface" src="assets\images\IMG_20180818_121815_438.jpg">
-
-            <p>
-                I've always wanted to have a job in which I was creating or building something. I took a Computer
-                Science course in college in which we worked in Windows Basic and I really enjoyed coding. It really
-                made me feel as if I was able to make something. In the long term, working for a gaming company would
-                be my ideal job, but anything that will allow me to learn, grow, and develop will make me happy.
-            </p>
-
-            <p>
-                On the personal side I enjoy gaming, snowboarding/skiing, exercising, competing in Spartan Races, and
-                spending time at home with my lady and our cats.
-                I really want to go snowboarding out in the Western United States, Europe, and some other places
-                throughout the world and definitely plan on doing that
-                in the future. I hope to master coding so that I can someday play a game that I created.
-            </p>
-
-            <p>
-                I am an animal lover at heart, and ever since I was young cats have been my favorite. I think I enjoy
-                their reclusiveness because it takes work to earn and keep their trust
-                but once you have it they are great and loving animals. Plus, they don't bark.
-            </p>
-
         </div>
-
-        <div class="footer">
-            <p>Such Majesty. Much Wow.</p>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-8" id="project-cards"></div>
+            <div class="col-md-2"></div>
         </div>
     </div>
-</Body>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./src/js/projectCards.js"></script>
+    <script type="text/javascript" src="./src/js/techLogos.js"></script>
+
+</body>
 
 </html>

@@ -1,0 +1,20 @@
+body {
+    background: black;
+    color: whitesmoke;
+}
+
+#headshot {
+    height: 75%;
+    width: 60%;
+}
+
+#logos {
+    width: 20%;
+    height: 25%;
+}
+
+#projCard{
+    color: black;   
+    justify-content: center;
+    margin: 10px;
+}
